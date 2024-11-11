@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Juste Prix</title>
+    <link rel="stylesheet" href="juste prix.css">
+    <script src="juste prix.js"></script>
+</head>
+<body>
+
+    <h1>Le Juste Prix</h1>
+    <div class="confetti-container">
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+    </div>
+    <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+    </div>
+    
+    <div class="level-info">
+        <h2 id="article-name">Article : </h2>
+        <p id="hint">Devinez le prix entre <span id="min-price">0</span> et <span id="max-price">1000</span> €</p>
+        <input type="number" id="guess" placeholder="Entrez votre prix">
+        <button onclick="checkGuess()">Valider</button>
+        <p class="result" id="result"></p>
+    </div>
+
+</body>
+
+
+</html>
